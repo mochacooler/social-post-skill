@@ -1,0 +1,19 @@
+{
+  "skill_name": "social-post",
+  "evals": [
+    {
+      "id": 1,
+      "name": "ai-close-days",
+      "prompt": "Mình là Finance Manager. Mình muốn đăng Facebook chia sẻ việc team dùng Claude để rút ngắn thời gian chốt sổ cuối tháng. Số liệu mình có: trước pilot là 8 ngày làm việc, sau pilot còn 5 ngày. Ba bước được tự động hóa: đối chiếu ngân hàng, tạo bút toán trích trước, rà soát chênh lệch. Cần bài post tiếng Việt kèm ảnh infographic để đăng.",
+      "expected_output": "Bài ~150-250 từ, dùng đúng 8 và 5 ngày (có thể tính ra giảm 3 ngày, 37,5% nếu kèm phép tính), không thêm số liệu khác; có hook, 3 bước, caveat (một pilot, chưa kiểm toán...), CTA, hashtag; ảnh 1080x1350 tối giản một màu nhấn, khớp bài.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "rpc-ptp-no-data",
+      "prompt": "Viết giúp mình post Facebook giải thích vì sao trong collection nhiều khi RPC rate cao mà PTP rate vẫn thấp, kèm ảnh infographic. Mình chưa có số liệu nào công bố được nên đừng đưa số bịa vào.",
+      "expected_output": "Bài giải thích cơ chế (funnel RPC -> PTP -> thu hồi, các nguyên nhân gốc rễ), không có số liệu bịa (hoặc placeholder), có caveat và CTA, hashtag; ảnh infographic dạng sơ đồ/funnel khái niệm không chứa số liệu giả.",
+      "files": []
+    }
+  ]
+}
