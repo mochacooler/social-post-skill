@@ -79,7 +79,11 @@ Quy tắc phong cách:
 - **Mệnh đề về người khác hoặc về kinh nghiệm của tác giả là dữ kiện, không phải văn phong.** "Nhiều anh chị hay hỏi", "theo kinh nghiệm của mình", "mình thường làm" chỉ dùng khi người dùng đã nói điều đó. Nếu không, viết dạng câu hỏi hoặc khung nhìn ("Câu hỏi đáng đặt ra:", "Một cách nhìn:") hoặc ghi vào danh sách giả định để họ xác nhận.
 - **Không biến giả định thành câu khẳng định trong bài.** Quy trình thực tế của người dùng (ai duyệt kết quả, công cụ cụ thể, lý do chọn cách làm) mà họ chưa nói thì để trong ghi chú kèm option, không viết vào bài như sự thật.
 
-### 5. Infographic
+### 5. Rà văn (sau khi có bản nháp, trước khi làm ảnh)
+
+Đọc `references/van-phong-tu-nhien.md` rồi rà bản nháp: bỏ cụm sáo và cấu trúc văn mẫu, đổi nhịp câu so le, thay tính từ bằng chi tiết thật của người dùng. Lý do: người đọc là đồng nghiệp trong nghề, giọng máy làm họ ngờ luôn cả số liệu. Rà văn không được làm mất hook, các mệnh đề "Nếu... thì..." hay dòng "cần xác nhận lại", và không được thêm chi tiết hay con số ngoại suy mà người dùng chưa cung cấp. Cuối bước này đếm từ: bài nằm trong 150-250 từ. Khi quy tắc văn va chạm với khung ở bước 4 (emoji, 1️⃣ 2️⃣ 3️⃣, ngoặc kép cho trích dẫn), theo khung ở bước 4. Chữ trên ảnh cũng đi qua bước rà này.
+
+### 6. Infographic
 
 Làm ảnh khi bài có cơ chế, so sánh, quy trình hoặc con số. Ảnh nhắc lại phần cốt lõi, không chép lại cả bài.
 
@@ -200,15 +204,16 @@ data
 - SVG nhận font theo trình xem, nên khi chụp phải nhúng SVG vào trang đã nạp `fonts.css`. Thư viện in cảnh báo "font not registered" khi đo chữ; layout dùng số liệu dự phòng nên cần xem ảnh thật và chỉnh `width/height`.
 - Luôn kiểm tra ảnh. Nếu template không hiển thị đúng nhãn hoặc quá nhiều màu, quay về canvas HTML.
 
-### 6. QA trước khi giao
+### 7. QA trước khi giao
 
 - Mọi con số trong bài và ảnh khớp nhau và khớp phép tính đã chạy.
 - Mọi điều khoản được trích đúng hiệu lực, đúng phạm vi, có nhãn mức chắc chắn nếu chỉ đọc qua nguồn thứ cấp.
 - Không còn từ tuyệt đối ngoài những chỗ có bằng chứng trực tiếp.
 - Bài có đúng một CTA, hashtag ở cuối, icon ở đầu khối.
+- Đã rà văn theo `references/van-phong-tu-nhien.md`: không còn cụm sáo, nhịp câu so le, chữ trên ảnh cũng đã rà.
 - Ảnh đã được nhìn bằng mắt sau lần render cuối.
 
-### 7. Giao kết quả
+### 8. Giao kết quả
 
 Gửi ảnh bằng công cụ gửi file, và đưa bài nháp trong khung code để dễ chép. Phần giải thích ngắn gồm: những gì thay đổi so với yêu cầu, một đến hai điểm đáng cân nhắc kèm option, và bước tiếp theo. Nhắc rõ rằng bài chỉ là bản nháp và việc đăng do người dùng quyết định. Nếu có chủ đề tư vấn chuyên môn (thuế, pháp lý, tài chính), thêm một dòng nêu rõ đây không phải tư vấn chuyên môn.
 
